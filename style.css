@@ -1,0 +1,220 @@
+body {
+    margin: 0rem;
+    padding: 0rem;
+    height: 100vh;
+    width: 100%;
+    background-image: url(./lee-campbell-DtDlVpy-vvQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: bisque;
+}
+
+.navbar {
+    background-color: rgb(144, 174, 199);
+    opacity: 80%;
+    color: rgb(16, 16, 75);
+    border: 2px solid purple;
+    border-radius: 0.7rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    margin: 1rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+}
+
+.navbar ul li {
+    margin: 1rem;
+}
+
+.navbar ul li:hover {
+    background-color: rgb(116, 76, 23);
+    opacity: 50%;
+}
+
+.intro {
+    background-color: rgb(144, 174, 199);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding: 7rem;
+    margin: 5rem;
+    opacity: 80%;
+    border: 2px solid purple;
+    border-radius: 0.7rem;
+}
+
+.intro h1 {
+    font-size: 50px;
+}
+
+.intro .i1 {
+    font-size: 24px;
+}
+
+.intro .i1 p {
+    text-align: center;
+    margin-left: 24rem;
+}
+
+.intro .i1 strong {
+    color: yellow;
+}
+
+.intro .i2 {
+    font-size: 40px;
+}
+
+.intro .i2 strong {
+    color: blueviolet;
+}
+
+.intro .i2 input {
+    height: 100px;
+    width: 300px;
+    padding: 1rem;
+    background-color: yellow;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 0.7rem;
+    margin: 3rem;
+}
+
+.forms {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.forms .signin {
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+    padding: 2rem;
+    background-color: rgb(144, 174, 199);
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    border: 2px solid black;
+    border-radius: 0.7rem;
+    opacity: 80%;
+}
+
+.forms .signin input {
+    display: list-item;
+}
+
+.forms .signup {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: right;
+    margin-left: 5rem;
+    padding: 2rem;
+    opacity: 80%;
+    background-color: rgb(144, 174, 199);
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    border: 2px solid black;
+    border-radius: 0.7rem;
+}
+
+.forms .signup input {
+    display: list-item;
+}
+
+.outro {
+    background-color: black;
+    color: azure;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+    padding: 2rem;
+    border: 2px solid purple;
+    border-radius: 0.7rem;
+    opacity: 80%;
+}
+
+
+.outro .outrohead {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.outro .outrobody {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.outro a {
+    text-decoration: wavy;
+    color: azure;
+    margin: 1rem;
+}
+
+.outro strong {
+    font-size: 35px;
+}
+
+.outro .outroend {
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 2rem;
+}
+
+footer {
+    background-color: black;
+    color: azure;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+    padding: 2rem;
+    border: 2px solid purple;
+    border-radius: 0.7rem;
+    opacity: 80%;
+    text-align: center;
+}
+
+footer strong {
+    text-align: center;
+    padding: 4rem;
+    margin: 5rem;
+    margin-bottom: 2rem;
+}
+
+footer a {
+    color: azure;
+    display: inline;
+    padding: 2rem;
+    margin: 1rem;
+}
